@@ -13,4 +13,4 @@ function Tag() {
   )
 }
 
-export default Tag
+export default Tag;
