@@ -1,0 +1,14 @@
+.tagfile{
+    position: fixed;
+    top: -70px;
+    right: -85px;
+    background-color: #698F3F;
+    z-index: 2;
+    height: 150px;
+    width: 200px;
+    transform: rotateZ(45deg);
+}
+.tagfile svg{
+    /* background-color: white; */
+    margin: 118px 84px 0px 84px;
+}

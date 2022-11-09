@@ -1,0 +1,39 @@
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c2e1d9;
+    color: #2D3047;
+    flex-direction: column;
+}
+.welcome button{
+    width: 150px;
+    padding: 15px 0px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.welcome button.github{
+    color:  #698F3F;
+    border: 1px solid #698F3F;
+}
+.welcome button.more{
+    background-color:  #698F3F;
+    border:none;
+    color : white;
+}
+.welcome button.github:hover{
+    cursor: pointer;
+}
+.welcome button.more:hover{
+    cursor: pointer;
+    color:orange;
+}
+
+@media (max-width : 720px) {
+    .welcome{
+        padding-left: 30px;
+    }
+}
