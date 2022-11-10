@@ -15,7 +15,7 @@ function Validity() {
        in culpa qui 
     officia deserunt mollit anim id est laborum
     </p>
-    <code style={{"background" : "black", "color" : "green", "padding" : "15px", "borderRadius" : "5px", "margin" : "5px 0px"}}>npm install LowPoly@2.3</code> <br/>
+    <code style={{"background" : "black", "color" : "orangered", "padding" : "15px", "borderRadius" : "5px", "margin" : "5px 0px"}}>npm install LowPoly@2.3</code> <br/>
    
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
