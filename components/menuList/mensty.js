@@ -32,7 +32,7 @@ label{
 `
 export const Icons = styled.div`
     position: fixed;
-    bottom: 20px;
+    top: 90vh;
     left: 15px;
     display: none;
     @media (max-width: 720px) {
