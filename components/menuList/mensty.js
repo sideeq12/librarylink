@@ -26,7 +26,7 @@ label{
 }
 @media (max-width : 720px) {
     width: 50vw;
-    margin-left: ${props => props.active ? "-50w" : "0px"};
+    margin-left: ${props => props.active ? "0px" : "-50vw"};
 }
 `
 export const Icons = styled.div`
