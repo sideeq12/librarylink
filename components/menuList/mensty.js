@@ -33,4 +33,8 @@ export const Icons = styled.div`
     position: fixed;
     bottom: 20px;
     left: 20px;
+
+    &:hover{
+        cursor: pointer;
+    }
 `
