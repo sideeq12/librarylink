@@ -1,10 +1,10 @@
 import React from 'react'
 import style from "../styles/Home.module.css"
 
-
-function Documentation() {
-  return ( <div className={style.cover}>
-    <div className={style.headings}>LowPoly Documentation</div>
+function Feautures() {
+  return (
+    <div className={style.cover}>
+    <div className={style.headings}>Feautures guide</div>
     <p>Kindly read this installation for easy installation of LowPoly</p>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -14,6 +14,8 @@ function Documentation() {
        in culpa qui 
     officia deserunt mollit anim id est laborum
     </p>
+    <code style={{"background" : "black", "color" : "orangered", "padding" : "15px",
+     "borderRadius" : "5px", "margin" : "5px 0px"}}>npm install LowPoly@2.3 --save-dev</code> <br/>
    
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -27,4 +29,4 @@ function Documentation() {
   )
 }
 
-export default Documentation
+export default Feautures

@@ -1,10 +1,10 @@
 import React from 'react'
 import style from "../styles/Home.module.css"
 
-
-function Documentation() {
-  return ( <div className={style.cover}>
-    <div className={style.headings}>LowPoly Documentation</div>
+function Modification() {
+  return (
+    <div className={style.cover}>
+    <div className={style.headings}> Latest Modication </div>
     <p>Kindly read this installation for easy installation of LowPoly</p>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -27,4 +27,4 @@ function Documentation() {
   )
 }
 
-export default Documentation
+export default Modification

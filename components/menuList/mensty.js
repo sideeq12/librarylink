@@ -27,12 +27,17 @@ label{
 @media (max-width : 720px) {
     width: 50vw;
     margin-left: ${props => props.active ? "0px" : "-50vw"};
+    transition: .3s;
 }
 `
 export const Icons = styled.div`
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    left: 15px;
+    display: none;
+    @media (max-width: 720px) {
+        display: block;
+    }
 
     &:hover{
         cursor: pointer;

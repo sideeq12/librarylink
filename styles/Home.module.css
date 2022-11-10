@@ -13,9 +13,10 @@
 
 @media (max-width: 720px) {
   .cover{
-  padding-left: 20px;
+  padding-left: 30px;
   font-size: small;
   width: 100%;
+  margin-left: 40px;
 
   }
 }

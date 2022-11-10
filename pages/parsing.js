@@ -5,7 +5,7 @@ import style from "../styles/Home.module.css"
 function Validity() {
   return (
     <div className={style.cover}>
-    <div className={style.headings}>Installation Guide</div>
+    <div className={style.headings}>Parsing of datas</div>
     <p>Kindly read this installation for easy installation of LowPoly</p>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
