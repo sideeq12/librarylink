@@ -1,9 +1,11 @@
 import React from 'react'
 import  style from "./mywelcome.module.css"
+import { Image } from "next/image"
 
 function Welcome() {
   return (
         <div  className={style.welcome}>
+          {/* <Image src="/mylogo.png" width={500} height={500} alt="company logo" /> */}
           <h2>LowPoly</h2>
             <h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
